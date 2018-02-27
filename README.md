@@ -22,13 +22,15 @@ Copy the entire contents of /tcwcms/ to your root directory (typically public_ht
 
 Navigate to your website: http://www.example.com/
 
-Follow the on-screen Installation instructions
+Follow the on-screen installation instructions
 
 From repository:
 
 cd to your root directory
 
-git clone https://github.com/Ex0r/TCWCMS/master.git
+git clone https://github.com/Ex0r/TCWCMS/TCWCMS.git
 
+Navigate to your website: http://www.example.com/
 
+Follow the on-screen installation instructions
 
