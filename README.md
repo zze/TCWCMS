@@ -8,9 +8,14 @@ TCWCMS is built on the Laravel PHP framework, and as such has some software requ
 Please check the software requirements often, as they will change as development progresses.
 
 REQUIRED SOFTWARE:
+
 PHP >=5.4.0 (PHP7.0 recommended)
+
 MySQL Community Server >= 5.4 or MariaDB >= 10.0
+
 Apache or nginx Webserver
+
+Composer
 
 INSTALLATION INSTRUCTIONS:
 
@@ -19,6 +24,8 @@ NOTE: Laravel requires setting the 'public' folder as your document root, unless
 From zip:
 
 Copy the entire contents of /tcwcms/ to your root directory (typically public_html)
+
+run 'composer install' inside of your root directory
 
 Navigate to your website: http://www.example.com/
 
@@ -29,6 +36,8 @@ From repository:
 cd to your root directory
 
 git clone https://github.com/Ex0r/TCWCMS/TCWCMS.git
+
+run 'composer install' inside of your root directory
 
 Navigate to your website: http://www.example.com/
 
