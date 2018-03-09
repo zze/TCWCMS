@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/admin', function() {
 	return view('admin.dashboard');
 });
+
+Route::get('/admin/accounts',function() {
+	return view('admin.accounts');
+});
+
+Route::get('/admin/settings',function() {
+	return view('admin.settings');
+});

@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('/css/dashboard.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/icons.css') }}" rel="stylesheet">
   </head>
 
   <body>
@@ -31,25 +32,25 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/accounts/">
+                <a class="nav-link" href="accounts/">
                   <span data-feather="users"></span>
                   Accounts
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pages/">
+                <a class="nav-link" href="pages/">
                   <span data-feather="file"></span>
                   Pages
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/support/">
+                <a class="nav-link" href="support/">
                   <span data-feather="help-circle"></span>
                   Support Tickets
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/settings/">
+                <a class="nav-link" href="settings/">
                   <span data-feather="settings"></span>
                   Settings
                 </a>
@@ -70,7 +71,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="{{ asset('js/jquery-slim.min.js') }}"><\/script>')</script>
     <script src="{{ asset('/js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
 
     <!-- Icons -->
     <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
